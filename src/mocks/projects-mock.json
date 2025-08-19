@@ -1,0 +1,234 @@
+[
+  {
+    "slug": "tacos-frances",
+    "status": "Lançado",
+    "href": "https://tacosfrances.com.br",
+    "title": "Tacos Francês",
+    "description": "Site foi feito para o restaurante do Tacos Francês, com o objetivo de promover sua visibilidade de seus serviços.",
+    "enterprise": "Dysoft",
+    "activity": "Desenvolvedor frontend",
+    "stacks": ["Web, Next.js", "Frame Motion", "Typescript"],
+    "repository": "",
+    "images": ["/images/tacos-frances-cover.png", "/images/tacos-frances.png"]
+  },
+  {
+    "slug": "tacos-frances-mobile",
+    "status": "Lançado",
+    "href": "https://play.google.com/store/apps/details?id=com.jajador.tacosfrances&hl=en-US",
+    "title": "Tacos Francês Mobile",
+    "description": "Aplicativo inicialmente feito para Android, e foi feito para o restaurante do Tacos Francês dedicadamente aos seus clientes. O aplicativo possibilita solicitação de pedidos remotamente fornecendo, também, aos clientes, o acompanhamento de entrega desses pedidos.",
+    "enterprise": "Dysoft",
+    "activity": "Desenvolvedor frontend e backend",
+    "stacks": [
+      "Mobile",
+      "React Native",
+      "Expo",
+      "Typescript",
+      "NoSQL",
+      "Firebase",
+      "Firestore",
+      "IFood API",
+      "Notification Push, Mercado Pago API"
+    ],
+    "repository": null,
+    "images": [
+      "/images/tacos-frances-mobile-cover.png",
+      "/images/tacos-frances-mobile.png"
+    ]
+  },
+  {
+    "slug": "karambolice",
+    "status": "Lançado",
+    "href": "https://www.karambolice.com.br/pt-br",
+    "title": "Karambolice",
+    "description": "Site completo feito para a agência Karambolice.",
+    "enterprise": "Dysoft",
+    "activity": "Desenvolvedor frontend",
+    "stacks": ["Web, Next.js", "Typescript", "Frame Motion"],
+    "repository": null,
+    "images": ["/images/karambolice-cover.png", "/images/karambolice.png"]
+  },
+  {
+    "slug": "biscoito-mobile",
+    "status": "Lançado",
+    "href": "https://play.google.com/store/apps/details?id=com.jajador.biscoitoapp&hl=pt-BR",
+    "title": "Biscoito Mobile",
+    "description": "Biscoito é uma plataforma que oferece facil comunicação entre empresas e influenciadores, fornecendo controle transparente dos trabalhos publicitários de influenciadores essenciais para market de marcas e campanhas de empresas. Essa versão mobile é voltado para ambiente do influenciador.",
+    "enterprise": "Dysoft",
+    "activity": "Desenvolvedor auxiliar frontend",
+    "stacks": [
+      "Mobile",
+      "React Native",
+      "Javascript",
+      "Expo",
+      "Strapi",
+      "SQLite",
+      "Node.js",
+      "API",
+      "Notification Push"
+    ],
+    "repository": null,
+    "images": [
+      "/images/biscoito-mobile-cover.png",
+      "/images/biscoito-mobile.png"
+    ]
+  },
+  {
+    "slug": "yreines",
+    "status": "Lançado",
+    "href": "https://yreines.com/",
+    "title": "Plataforma Yreines",
+    "description": "Yreines é uma plataforma de Senegal com o objetivo de mediar a busca e demanda de serviços domésticos. Com ele é possível fazer cadastro como cliente, na busca de serviços e profissionais, assim também como prestador de serviço registrando todos seus serviços.",
+    "enterprise": "Dysoft",
+    "activity": "Desenvolvedor frontend e backend",
+    "stacks": [
+      "Multiplataforma",
+      "Flutter Flow",
+      "Dart",
+      "Firebase",
+      "Firestore",
+      "Firebase Cloud Function",
+      "NoSQL",
+      "Algolia"
+    ],
+    "repository": null,
+    "images": ["/images/yreines-cover.png", "/images/yreines.png"]
+  },
+  {
+    "slug": "evosabores",
+    "status": "Em pausa",
+    "href": "https://www.evosabores.com.br/",
+    "title": "Evosabores",
+    "description": "Evosabores é um sistema de delivery alimentícios. O site é focado no lado da empresa/restaurante, além de conter uma Landing Page inicial. É possível fazer registro de empresa e fazer toda administração, como criar e gerir produtos, acompanhar pedidos e solicitar entregadores.",
+    "enterprise": "SOFX",
+    "activity": "Desenvolvedor frontend e backend",
+    "stacks": [
+      "Web",
+      "Next.js",
+      "Typescript",
+      "Node.js",
+      "Express.js",
+      "Prisma ORM",
+      "Frame Motion",
+      "MySql",
+      "Web Socket",
+      "Socket.io",
+      "API",
+      "Google API Maps",
+      "Resend"
+    ],
+    "repository": null,
+    "images": ["/images/evosabores-cover.png", "/images/evosabores.png"]
+  },
+  {
+    "slug": "evosabores-mobile",
+    "status": "Em pausa",
+    "href": "https://play.google.com/store/apps/details?id=com.evosabores.app",
+    "title": "Evosabores Mobile",
+    "description": "Evosabores é um sistema de delivery alimentícios. O aplicativo é focado no lado do cliente. É possível fazer registro de clientes e poder solicitar pedidos. Além de poder acompanhar esses pedidos.",
+    "enterprise": "SOFX",
+    "activity": "Desenvolvedor frontend",
+    "stacks": [
+      "Mobile",
+      "React Native",
+      "Typescript",
+      "Expo",
+      "API",
+      "Prisma ORM",
+      "Frame Motion",
+      "MySql",
+      "Web Socket",
+      "Socket.io",
+      "Google API Maps"
+    ],
+    "repository": null,
+    "images": [
+      "/images/evosabores-mobile-cover.png",
+      "/images/evosabores-mobile.png"
+    ]
+  },
+  {
+    "slug": "amazoncards",
+    "status": "Em andamento",
+    "href": "https://amazoncards.vercel.app/",
+    "title": "Amazon Cards",
+    "description": "Plataforma para facilitar as operações de gestão de benefícios para empresas. Nela contém lado administrativo da Amazon Cards e ambiente do cliente para poder solicitar pedidos.",
+    "enterprise": "SOFX",
+    "activity": "Desenvolvedor frontend e backend",
+    "stacks": [
+      "Web",
+      "Next.js",
+      "Typescript",
+      "Supabase",
+      "API",
+      "PostgreSQL",
+      "Frame Motion",
+      "MUI",
+      "API Instagram",
+      "Google API Maps"
+    ],
+    "repository": null,
+    "images": ["/images/amazoncards-cover.png", "/images/amazoncards.png"]
+  },
+  {
+    "slug": "microjobs",
+    "status": "Em andamento",
+    "href": "https://www.microjobs.com.br/",
+    "title": "Microjobs",
+    "description": "Plataforma mediador de serviços de freelancers. Ela fornece a possibilidade de enviar propostas a projetos, assim como permite a criação de projetos.",
+    "enterprise": "SOFX",
+    "activity": "Desenvolvedor frontend e backend",
+    "stacks": [
+      "Web",
+      "Next.js",
+      "Typescript",
+      "Supabase",
+      "API",
+      "PostgreSQL",
+      "Frame Motion",
+      "MUI",
+      "Node.js",
+      "Express.js",
+      "Socket.io",
+      "Resend",
+      "Algolia",
+      "Asaas Payments"
+    ],
+    "repository": null,
+    "images": ["/images/microjobs-cover.png", "/images/microjobs.png"]
+  },
+  {
+    "slug": "design-agency",
+    "status": "Lançado",
+    "href": "https://design-agency-psi-five.vercel.app/",
+    "title": "Design Agency",
+    "description": "Landing Page fictício chamado Design Agency criado com Next.js",
+    "enterprise": "Projeto Pessoal",
+    "activity": "Desenvolvedor frontend",
+    "stacks": [
+      "Web",
+      "Next.js",
+      "Typescript",
+      "Frame Motion",
+      "Shadcn",
+      "Tailwind"
+    ],
+    "repository": "https://github.com/francovictor-dev/design-agency",
+    "images": ["/images/design-agency-cover.png", "/images/design-agency.png"]
+  },
+  {
+    "slug": "igapo-ladrilhos",
+    "status": "Lançado",
+    "href": "https://igapoladrilhos.com.br/simulador/",
+    "title": "Igapo Ladrilho",
+    "description": "Fui contratado para criar simulador de ladrilhos no site https://igapoladrilhos.com.br. O objetivo do projeto é fazer usuários escolher e visualizar ladrilhos customizados além de poder visualizar também em conjunto de 3x3.",
+    "enterprise": "",
+    "activity": "Desenvolvedor frontend",
+    "stacks": ["Web", "Javascript", "HTML", "CSS"],
+    "repository": "https://github.com/francovictor-dev/igapo-ladrilhos-simulador",
+    "images": [
+      "/images/igapo-ladrilhos-cover.png",
+      "/images/igapo-ladrilhos.png"
+    ]
+  }
+]
