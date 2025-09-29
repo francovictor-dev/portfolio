@@ -125,9 +125,9 @@ const TopNavBar = () => {
   };
 
   return (
-    <div className="w-full h-20 z-50 fixed px-4 bg-navbar flex justify-center items-center lg:gap-15 sm:gap-8 max-sm:justify-end">
-      {renderLinks()}
-      {renderButton()}
+    <div className="w-full  h-20 z-50 fixed px-4 bg-navbar flex justify-center items-center lg:gap-15 sm:gap-8 max-sm:justify-end">
+      <div className="flex flex-row gap-8 max-sm::hidden">{renderLinks()}</div>
+      <div className="hidden max-sm:flex">{renderButton()}</div>
     </div>
   );
 };
