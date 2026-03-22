@@ -1,3 +1,4 @@
+import PageTrasition from "@/components/layout-page";
 import TopNavBar from "@/components/top-nav-bar";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
@@ -23,7 +24,14 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${poppins.variable} antialiased  `}>
         <TopNavBar />
-        {children}
+        <PageTrasition
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 1 }}
+        >
+          {children}
+        </PageTrasition>
         <footer
           id="footer"
           className="w-full bg-footer py-10 flex flex-col items-center justify-center gap-6"

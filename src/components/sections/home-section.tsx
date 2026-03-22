@@ -45,9 +45,10 @@ const HomeSection = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 3, type: "spring" }}
       >
-        Eu sou um desenvolvedor de software full-stack com mais de 3 anos de
-        experiência profissional, especializado em desenvolvimento web e mobile.
-        Minha especialidade está na criação de sistemas robustos com React.js.
+        Eu sou um desenvolvedor de software fullstack Javascript com mais de 4
+        anos de experiência profissional, especializado em desenvolvimento web e
+        mobile. Minha especialidade está na criação de sistemas robustos com
+        React.js e Node.js.
       </motion.label>
 
       <motion.div

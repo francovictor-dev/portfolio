@@ -2,9 +2,11 @@
 
 import projectsMock from "@/mocks/projects-mock.json";
 import { motion, TargetAndTransition } from "motion/react";
+import { useRouter } from "next/navigation";
 import ProjectCard from "../ui/project-card";
 
 const ProjectsSection = () => {
+  const { push } = useRouter();
   const projects = projectsMock as ProjectInterface[];
 
   const renderProjectCards = () => {
@@ -19,7 +21,7 @@ const ProjectsSection = () => {
     };
 
     return projects.map((item, index) => (
-      <motion.a
+      <motion.div
         key={item.slug}
         className={`flex w-full  ${justityType(index)}`}
         initial={handleInitialPosition(index)}
@@ -27,7 +29,11 @@ const ProjectsSection = () => {
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
         viewport={{ once: true }}
-        href={`/projetos/${item.slug}`}
+        layoutId={item.slug}
+        onClick={() => {
+          sessionStorage.setItem("scrollY", String(window.scrollY));
+          push(`/projetos/${item.slug}`);
+        }}
       >
         <div className="absolute z-10 m-2 rounded-2xl bg-neutral-700 p-2">
           <span className="text-gray-300 font-semibold">
@@ -35,7 +41,7 @@ const ProjectsSection = () => {
           </span>
         </div>
         <ProjectCard title={item.title} src={item.images[0]} />
-      </motion.a>
+      </motion.div>
     ));
   };
 

@@ -3,7 +3,7 @@
 import { MenuIcon } from "lucide-react";
 import { motion, MotionStyle, Variants } from "motion/react";
 
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 import {
   Sheet,
@@ -29,6 +29,7 @@ const TopNavBar = () => {
     false,
   ]);
 
+  const { push } = useRouter();
   const pathname = usePathname();
 
   const isHome = pathname == "/";
@@ -66,10 +67,10 @@ const TopNavBar = () => {
 
   const renderLinks = () => {
     return links.map((item, index) => (
-      <motion.a
+      <motion.div
         key={item.id}
-        href={item.href}
-        className="font-semibold lg:text-lg sm:text-sm max-sm:hidden"
+        onClick={() => push(item.href)}
+        className="font-semibold cursor-pointer lg:text-lg sm:text-sm max-sm:hidden"
         variants={animation}
         style={{ color: "var(--text-secondary-90" }}
         initial={"initial"}
@@ -84,7 +85,7 @@ const TopNavBar = () => {
           variants={barAnimation}
           animate={onHover[index] ? "hover" : "initial"}
         />
-      </motion.a>
+      </motion.div>
     ));
   };
 
