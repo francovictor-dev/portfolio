@@ -84,38 +84,10 @@
       "Moti",
       "Google API Maps"
     ],
-    "repository": null,
+    "repository": "https://www.amazoncards.com.br/#footer",
     "images": [
       "/images/amazoncards-cover.png",
       "/images/amazoncards-mobile.png"
-    ]
-  },
-  {
-    "slug": "evosabores-mobile",
-    "type": "mobile",
-    "status": "Em pausa",
-    "href": "https://play.google.com/store/apps/details?id=com.evosabores.app",
-    "title": "Evosabores Mobile",
-    "description": "Evosabores é um sistema de delivery alimentícios. O aplicativo é focado no lado do cliente. É possível fazer registro de clientes e poder solicitar pedidos. Além de poder acompanhar esses pedidos.",
-    "enterprise": "SOFX",
-    "activity": "Desenvolvedor frontend",
-    "stacks": [
-      "Mobile",
-      "React Native",
-      "Typescript",
-      "Expo",
-      "API",
-      "Prisma ORM",
-      "Frame Motion",
-      "MySql",
-      "Web Socket",
-      "Socket.io",
-      "Google API Maps"
-    ],
-    "repository": null,
-    "images": [
-      "/images/evosabores-mobile-cover.png",
-      "/images/evosabores-mobile.png"
     ]
   },
   {
