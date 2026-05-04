@@ -68,7 +68,7 @@
     "slug": "amazoncards-mobile",
     "type": "mobile",
     "status": "Em andamento",
-    "href": "",
+    "href": "https://www.amazoncards.com.br/#footer",
     "title": "Amazon Cards Mobile",
     "description": "Versão mobile do Amazon Cards dedicado para o ambiente dos clientes e poderem solicitar pedidos.",
     "enterprise": "SOFX",
@@ -84,7 +84,7 @@
       "Moti",
       "Google API Maps"
     ],
-    "repository": "https://www.amazoncards.com.br/#footer",
+    "repository": null,
     "images": [
       "/images/amazoncards-cover.png",
       "/images/amazoncards-mobile.png"
