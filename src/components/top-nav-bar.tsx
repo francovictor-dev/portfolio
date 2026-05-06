@@ -50,11 +50,11 @@ const TopNavBar = () => {
       text: "Experiências",
       href: isHome ? "#experiences" : "/#experiences",
     },
-    {
+    /* {
       id: 3,
       text: "Contatos",
       href: isHome ? "#footer" : "/#footer",
-    },
+    }, */
   ];
 
   const handleHoverStart = (index: number) => {
