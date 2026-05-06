@@ -32,7 +32,7 @@ export default function RootLayout({
         >
           {children}
         </PageTrasition>
-        <footer
+        {/* <footer
           id="footer"
           className="w-full bg-footer py-10 flex flex-col items-center justify-center gap-6"
         >
@@ -54,7 +54,7 @@ export default function RootLayout({
               <span className="text-gray-300">+55 (91) 9198134-9977</span>
             </div>
           </div>
-        </footer>
+        </footer> */}
       </body>
     </html>
   );
