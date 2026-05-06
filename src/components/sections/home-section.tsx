@@ -57,9 +57,9 @@ const HomeSection = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 3, type: "spring" }}
       >
-        <a href="#footer">
+        {/* <a href="#footer">
           <Button variant={"default"}>Entrar em contato</Button>
-        </a>
+        </a> */}
         <Link
           href="/docs/franco-victor-ribeiro-currículo.pdf"
           target="_blank"
