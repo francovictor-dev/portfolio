@@ -35,7 +35,7 @@ const HomeSection = () => {
       >
         Olá! Me chamo Franco Victor Ribeiro e{" "}
         <span className="bg-gradient-to-tr from-(--grad-orange-900) to-(--lilas) bg-clip-text text-transparent">
-          trabalho com sites e aplicativo móveis!
+          trabalho com jogos!
         </span>
       </motion.h1>
 
@@ -45,10 +45,10 @@ const HomeSection = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 3, type: "spring" }}
       >
-        Eu sou um desenvolvedor de software fullstack Javascript com mais de 4
-        anos de experiência profissional, especializado em desenvolvimento web e
-        mobile. Minha especialidade está na criação de sistemas robustos com
-        React.js e Node.js.
+        Eu sou um programador de games fullstack iniciando minha jornada na
+        indústria de jogos. Tenho experiência com Unity (C#), Godot (GDScript) e
+        sei construir servidores web customizáveis com Node.js (Javascript) ou
+        com soluções Cloud, como Firebase e Supabase.
       </motion.label>
 
       <motion.div
@@ -61,7 +61,7 @@ const HomeSection = () => {
           <Button variant={"default"}>Entrar em contato</Button>
         </a> */}
         <Link
-          href="/docs/franco-victor-ribeiro-currículo.pdf"
+          href="/docs/cv-dev-games.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >

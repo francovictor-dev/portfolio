@@ -10,6 +10,42 @@ const ExperienceSection = () => {
 
       <div className="flex flex-row gap-10 flex-wrap max-sm:gap-4  justify-center items-center">
         <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          Unity 2D/3D
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          C#
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          GODOT
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          GDScript
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          SOLID
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          Clean Code
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          Programação orientada a objetos
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          Lógica de programação
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          Animações de Sprite
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
           Javascript / Typescript
         </h2>
 
@@ -26,23 +62,15 @@ const ExperienceSection = () => {
         </h2>
 
         <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
-          Expo
-        </h2>
-
-        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
-          Flutter Flow
-        </h2>
-
-        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
           APIs
         </h2>
 
         <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
-          Node.js
+          Backend / Servidor Web
         </h2>
 
         <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
-          Strapi
+          Node.js
         </h2>
 
         <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
@@ -54,7 +82,7 @@ const ExperienceSection = () => {
         </h2>
 
         <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
-          Prisma ORM
+          Admob
         </h2>
 
         <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
@@ -63,6 +91,18 @@ const ExperienceSection = () => {
 
         <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
           PostgreSQL
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          SQLite
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          NoSQL
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          MongoDB
         </h2>
 
         <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
@@ -79,10 +119,6 @@ const ExperienceSection = () => {
 
         <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
           Kanban
-        </h2>
-
-        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
-          Versionamento (Github)
         </h2>
 
         <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
