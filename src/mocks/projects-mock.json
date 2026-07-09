@@ -1,5 +1,76 @@
 [
   {
+    "slug": "amazoncards",
+    "type": "web",
+    "status": "Lançado",
+    "href": "https://www.amazoncards.com/",
+    "title": "Amazon Cards",
+    "description": "Plataforma para facilitar as operações de gestão de benefícios para empresas. Nela contém lado administrativo da Amazon Cards e ambiente do cliente para poder solicitar pedidos.",
+    "enterprise": "SOFX",
+    "activity": "Desenvolvedor frontend e backend",
+    "stacks": ["Next.js", "Typescript", "PostgreSQL"],
+    "ui": ["MUI", "Styled Components", "Frame Motion", "Context API"],
+    "services": ["Supabase", "Git", "API Rest", "Google API Maps", "Resend"],
+    "repository": null,
+    "images": ["/images/amazoncards-cover.png", "/images/amazoncards.png"]
+  },
+  {
+    "slug": "amazoncards-mobile",
+    "type": "mobile",
+    "status": "Em andamento",
+    "href": "https://www.amazoncards.com.br/#footer",
+    "title": "Amazon Cards Mobile",
+    "description": "Versão mobile do Amazon Cards dedicado para o ambiente dos clientes e poderem solicitar pedidos.",
+    "enterprise": "SOFX",
+    "activity": "Desenvolvedor android",
+    "stacks": ["React Native", "Expo", "Typescript", "PostgreSQL"],
+    "ui": ["React Native Paper", "Moti animation", "Context API"],
+    "services": ["Supabase", "Git", "Google API Maps"],
+    "repository": null,
+    "images": [
+      "/images/amazoncards-cover.png",
+      "/images/amazoncards-mobile.png"
+    ]
+  },
+  {
+    "slug": "zrb",
+    "type": "web",
+    "status": "Andamento",
+    "href": "http://18.228.241.180:3333/",
+    "title": "ZRB - e-commerce",
+    "description": "E-commerce de venda de artes e mockups para camisas, com o objetivo de facilitar a compra de produtos para os clientes.",
+    "enterprise": "",
+    "activity": "Desenvolvedor fullstack",
+    "stacks": [
+      "Adonisjs",
+      "Typescript",
+      "PostgreSQL",
+      "MongoDB",
+      "FastAPI",
+      "Reactjs",
+      "Inertiajs",
+      "Lucid ORM"
+    ],
+    "ui": [
+      "Tailwind CSS",
+      "Frame Motion",
+      "Zustand",
+      "Context API",
+      "I18n adonis",
+      "Shadcn UI"
+    ],
+    "services": [
+      "Redis",
+      "BullMQ",
+      "Docker",
+      "AWS (S3, EC2, ECR)",
+      "Git",
+      "Automation CI/CD (github Actions)"
+    ],
+    "repository": null,
+    "images": ["/images/zrb-cover.png", "/images/zrb.png"]
+  },
+  {
     "slug": "kairos",
     "type": "mobile",
     "status": "Lançado",
@@ -8,7 +79,9 @@
     "description": "Kairos é um Spa onde o aplicativo IOS tem o objetivo de oferecer cadastros, agendamentos remotamente e acompanhamento dos serviços agendados.",
     "enterprise": "SOFX",
     "activity": "Desenvolvedor mobile IOS",
-    "stacks": ["Mobile", "React Native", "Expo", "Typescript", "API", "IOS"],
+    "stacks": ["Mobile", "React Native", "Expo", "Typescript"],
+    "ui": ["React native Paper", "Recoil", "Context API"],
+    "services": ["API Rest", "Git", "Alteg.io API"],
     "repository": null,
     "images": ["/images/kairos-cover.png", "/images/kairos.png"]
   },
@@ -22,72 +95,79 @@
     "enterprise": "Microjobs",
     "activity": "Desenvolvedor frontend e backend",
     "stacks": [
-      "Web",
       "Next.js",
       "Typescript",
-      "Supabase",
-      "API",
       "PostgreSQL",
-      "Frame Motion",
-      "MUI",
       "Node.js",
       "Express.js",
-      "Socket.io",
-      "Resend",
+      "Socket.io"
+    ],
+    "ui": ["MUI", "Styled Components", "Context API", "Frame Motion"],
+    "services": [
+      "API Rest",
+      "Supabase",
       "Algolia",
-      "Asaas Payments"
+      "Git",
+      "Asaas Gateway",
+      "Envio de email (Nodemailer)"
     ],
     "repository": null,
     "images": ["/images/microjobs-cover.png", "/images/microjobs.png"]
   },
   {
-    "slug": "amazoncards",
+    "slug": "evosabores",
     "type": "web",
-    "status": "Lançado",
-    "href": "https://www.amazoncards.com/",
-    "title": "Amazon Cards",
-    "description": "Plataforma para facilitar as operações de gestão de benefícios para empresas. Nela contém lado administrativo da Amazon Cards e ambiente do cliente para poder solicitar pedidos.",
+    "status": "Em pausa",
+    "href": "https://evosabores-1i9eqvlng-francovictordevs-projects.vercel.app/parceiros",
+    "title": "Evosabores (Demo)",
+    "description": "Evosabores é um sistema de delivery alimentícios. O site é focado no lado da empresa/restaurante, além de conter uma Landing Page inicial. É possível fazer registro de empresa e fazer toda administração, como criar e gerir produtos, acompanhar pedidos e solicitar entregadores.",
     "enterprise": "SOFX",
     "activity": "Desenvolvedor frontend e backend",
     "stacks": [
-      "Web",
       "Next.js",
       "Typescript",
-      "Supabase",
-      "API",
-      "PostgreSQL",
-      "Frame Motion",
-      "MUI",
-      "API Instagram",
-      "Google API Maps"
+      "Node.js",
+      "Express.js",
+      "Prisma ORM",
+      "MySql",
+      "Web Socket",
+      "Socket.io"
+    ],
+    "ui": ["MUI", "Styled Components", "Recoil", "Frame Motion"],
+    "services": [
+      "API Rest",
+      "Git",
+      "Asaas Gateway",
+      "Google API Maps",
+      "Resend",
+      "AWS S3"
     ],
     "repository": null,
-    "images": ["/images/amazoncards-cover.png", "/images/amazoncards.png"]
+    "images": ["/images/evosabores-cover.png", "/images/evosabores.png"]
   },
   {
-    "slug": "amazoncards-mobile",
+    "slug": "evosabores-mobile",
     "type": "mobile",
-    "status": "Em andamento",
-    "href": "https://www.amazoncards.com.br/#footer",
-    "title": "Amazon Cards Mobile",
-    "description": "Versão mobile do Amazon Cards dedicado para o ambiente dos clientes e poderem solicitar pedidos.",
+    "status": "Em pausa",
+    "href": "/files/evosabores-app.apk",
+    "title": "Evosabores Mobile (Demo)",
+    "description": "Evosabores é um sistema de delivery alimentícios. O aplicativo é focado no lado do cliente. É possível fazer registro de clientes e poder solicitar pedidos. Além de poder acompanhar esses pedidos.",
     "enterprise": "SOFX",
-    "activity": "Desenvolvedor android",
+    "activity": "Desenvolvedor frontend",
     "stacks": [
       "Mobile",
       "React Native",
-      "Expo",
       "Typescript",
-      "Supabase",
-      "API",
-      "PostgreSQL",
-      "Moti",
-      "Google API Maps"
+      "Expo",
+      "MySql",
+      "Web Socket"
     ],
+    "ui": ["React native Paper", "Context API", "Recoil"],
+    "services": ["API Rest", "Git", "Asaas Gateway", "Google API Maps"],
     "repository": null,
     "images": [
-      "/images/amazoncards-cover.png",
-      "/images/amazoncards-mobile.png"
+      "/images/evosabores-mobile-cover.png",
+      "/images/evosabores-mobile.png"
     ]
   },
   {
@@ -99,7 +179,9 @@
     "description": "Site foi feito para o restaurante do Tacos Francês, com o objetivo de promover sua visibilidade de seus serviços.",
     "enterprise": "Dysoft",
     "activity": "Desenvolvedor frontend",
-    "stacks": ["Web, Next.js", "Frame Motion", "Typescript"],
+    "stacks": ["Next.js", "Typescript"],
+    "ui": ["MUI", "Styled Components", "CSS", "Frame Motion"],
+    "services": ["Git"],
     "repository": "",
     "images": ["/images/tacos-frances-cover.png", "/images/tacos-frances.png"]
   },
@@ -112,7 +194,9 @@
     "description": "Site completo feito para a agência Karambolice.",
     "enterprise": "Dysoft",
     "activity": "Desenvolvedor frontend",
-    "stacks": ["Web, Next.js", "Typescript", "Frame Motion"],
+    "stacks": ["Next.js", "Typescript"],
+    "ui": ["MUI", "Styled Components", "Frame Motion"],
+    "services": ["Git"],
     "repository": null,
     "images": ["/images/karambolice-cover.png", "/images/karambolice.png"]
   },
@@ -125,38 +209,16 @@
     "description": "Yreines é uma plataforma de Senegal com o objetivo de mediar a busca e demanda de serviços domésticos. Com ele é possível fazer cadastro como cliente, na busca de serviços e profissionais, assim também como prestador de serviço registrando todos seus serviços.",
     "enterprise": "Dysoft",
     "activity": "Desenvolvedor frontend e backend",
-    "stacks": [
-      "Multiplataforma",
+    "stacks": ["Dart", "NoSQL", "Algolia"],
+    "ui": ["Flutter ui"],
+    "services": [
+      "Git",
+      "Algolia",
       "Flutter Flow",
-      "Dart",
-      "Firebase",
-      "Firestore",
-      "Firebase Cloud Function",
-      "NoSQL",
-      "Algolia"
+      "Firebase (Firestore, Auth, Cloud Function)"
     ],
     "repository": null,
     "images": ["/images/yreines-cover.png", "/images/yreines.png"]
-  },
-  {
-    "slug": "design-agency",
-    "type": "web",
-    "status": "Lançado",
-    "href": "https://design-agency-psi-five.vercel.app/",
-    "title": "Design Agency",
-    "description": "Landing Page fictício chamado Design Agency criado com Next.js",
-    "enterprise": "Projeto Pessoal",
-    "activity": "Desenvolvedor frontend",
-    "stacks": [
-      "Web",
-      "Next.js",
-      "Typescript",
-      "Frame Motion",
-      "Shadcn",
-      "Tailwind"
-    ],
-    "repository": "https://github.com/francovictor-dev/design-agency",
-    "images": ["/images/design-agency-cover.png", "/images/design-agency.png"]
   },
   {
     "slug": "igapo-ladrilhos",
@@ -167,11 +229,28 @@
     "description": "Fui contratado para criar simulador de ladrilhos no site https://igapoladrilhos.com.br. O objetivo do projeto é fazer usuários escolher e visualizar ladrilhos customizados além de poder visualizar também em conjunto de 3x3.",
     "enterprise": "",
     "activity": "Desenvolvedor frontend",
-    "stacks": ["Web", "Javascript", "HTML", "CSS"],
+    "stacks": ["Javascript"],
+    "ui": ["HTML", "CSS"],
+    "services": ["Git"],
     "repository": "https://github.com/francovictor-dev/igapo-ladrilhos-simulador",
     "images": [
       "/images/igapo-ladrilhos-cover.png",
       "/images/igapo-ladrilhos.png"
     ]
+  },
+  {
+    "slug": "design-agency",
+    "type": "web",
+    "status": "Lançado",
+    "href": "https://design-agency-psi-five.vercel.app/",
+    "title": "Design Agency",
+    "description": "Landing Page fictício chamado Design Agency criado com Next.js",
+    "enterprise": "Projeto Pessoal",
+    "activity": "Desenvolvedor frontend",
+    "stacks": ["Next.js", "Typescript"],
+    "ui": ["Frame Motion", "Tailwind CSS", "Shadcn"],
+    "services": ["Git"],
+    "repository": "https://github.com/francovictor-dev/design-agency",
+    "images": ["/images/design-agency-cover.png", "/images/design-agency.png"]
   }
 ]

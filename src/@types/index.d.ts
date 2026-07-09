@@ -10,6 +10,14 @@ interface ProjectInterface {
   enterprise: string;
   activity: string;
   stacks: string[];
+  ui: string[];
+  services: string[];
   repository?: string | null;
   images: string[];
+}
+
+interface PublicRepository {
+  title: string;
+  href: string;
+  stacks: string[];
 }

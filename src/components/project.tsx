@@ -58,11 +58,17 @@ export default function ProjectComponent({
             <label>
               <strong>Stacks:</strong> {project?.stacks.join(", ")}
             </label>
+            <label>
+              <strong>UI:</strong> {project?.ui.join(", ")}
+            </label>
+            <label>
+              <strong>Serviços:</strong> {project?.services.join(", ")}
+            </label>
           </div>
           <label>
             <strong>Link:</strong>{" "}
             <a href={project?.href} target="_blank">
-              {project?.href}
+              Ver projeto
             </a>
           </label>
         </div>

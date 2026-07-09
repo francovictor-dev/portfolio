@@ -1,0 +1,27 @@
+[
+  {
+    "title": "CafeStreet API",
+    "href": "https://github.com/francovictor-dev/cafestreet-api",
+    "stacks": ["Nestjs", "TypeORM", "PostgreSQL"]
+  },
+  {
+    "title": "CafeStreet WEB",
+    "href": "https://github.com/francovictor-dev/cafestreet-web",
+    "stacks": ["Nextjs", "Tailwind", "React Query"]
+  },
+  {
+    "title": "Recicla Belém Web",
+    "href": "https://github.com/francovictor-dev/recicla-belem-web",
+    "stacks": ["Angular", "SASS", "API Rest"]
+  },
+  {
+    "title": "WebTelecom",
+    "href": "https://github.com/francovictor-dev/WebTelecom",
+    "stacks": ["Javascript", "Nodejs", "Juno Gateway"]
+  },
+  {
+    "title": "Igapo ladrilhos Simulador",
+    "href": "https://github.com/francovictor-dev/igapo-ladrilhos-simulador",
+    "stacks": ["Javascript", "HTML", "CSS"]
+  }
+]

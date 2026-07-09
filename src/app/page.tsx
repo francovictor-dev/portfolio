@@ -3,6 +3,7 @@
 import ExperienceSection from "@/components/sections/experience-section";
 import HomeSection from "@/components/sections/home-section";
 import ProjectsSection from "@/components/sections/projects-section";
+import RepositoriesSection from "@/components/sections/repositories-section";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
     <div className="flex flex-col w-screen gap-26 ">
       <HomeSection />
       <ProjectsSection />
+      <RepositoriesSection />
       <ExperienceSection />
     </div>
   );

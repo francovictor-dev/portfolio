@@ -37,7 +37,7 @@ const ProjectsSection = () => {
       >
         <div className="absolute z-10 m-2 rounded-2xl bg-neutral-700 p-2">
           <span className="text-gray-300 font-semibold">
-            {item.stacks.slice(0, 2).join("-")}
+            {item.type}-{item.stacks[0]}
           </span>
         </div>
         <ProjectCard title={item.title} src={item.images[0]} />
