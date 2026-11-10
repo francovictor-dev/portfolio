@@ -57,8 +57,7 @@ export default function ProjectComponent({
               <strong>Serviços:</strong> {project?.services.join(", ")}
             </label>
           </div>
-          {(project?.status == "Lançado" ||
-            project?.status == "Em andamento") && (
+          {project?.status != "Indisponível" && (
             <label>
               <strong>Link:</strong>{" "}
               <a href={project?.href} target="_blank">

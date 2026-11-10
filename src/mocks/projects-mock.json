@@ -28,7 +28,7 @@
     "slug": "amazoncards-mobile",
     "type": "mobile",
     "status": "Em andamento",
-    "href": "https://www.amazoncards.com.br/#footer",
+    "href": "/files/amazoncards-app.apk",
     "title": "Amazon Cards Mobile",
     "description": "Versão mobile do Amazon Cards dedicado para o ambiente dos clientes e poderem solicitar pedidos.",
     "enterprise": "SOFX",
@@ -172,7 +172,7 @@
   {
     "slug": "evosabores",
     "type": "web",
-    "status": "Em andamento",
+    "status": "Em pausa",
     "href": "https://evosabores-1i9eqvlng-francovictordevs-projects.vercel.app/parceiros",
     "title": "Evosabores (Demo)",
     "description": "Evosabores é um sistema de delivery alimentícios. O site é focado no lado da empresa/restaurante, além de conter uma Landing Page inicial. É possível fazer registro de empresa e fazer toda administração, como criar e gerir produtos, acompanhar pedidos e solicitar entregadores.",
