@@ -1,7 +1,7 @@
 "use client";
 
+import { Carousel } from "@/components/ui/carousel";
 import { motion } from "motion/react";
-import Image from "next/image";
 
 export default function ProjectComponent({
   project,
@@ -19,19 +19,11 @@ export default function ProjectComponent({
     >
       <h3 className="text-3xl font-bold">{project?.title}</h3>
       <div className="w-[50vw] relative flex-col gap-6 min-h-3.5 flex items-center justify-center max-md:w-full max-sm:px-4">
-        <div
-          className="w-full rounded-4xl overflow-hidden flex items-center justify-center"
-          style={{ backgroundColor: "var(--footer)" }}
-        >
-          <Image
-            className="h-[50vh] object-contain  max-md:w-full"
-            src={project?.images[1]!}
-            alt=""
-            height={800}
-            width={1200}
-            priority
-          />
-        </div>
+        <Carousel
+          key={project.slug}
+          images={project.images}
+          title={project.title}
+        />
         <label className="text-2xl font-semibold ">Descrição</label>
         <label>{project?.description}</label>
 
@@ -65,12 +57,15 @@ export default function ProjectComponent({
               <strong>Serviços:</strong> {project?.services.join(", ")}
             </label>
           </div>
-          <label>
-            <strong>Link:</strong>{" "}
-            <a href={project?.href} target="_blank">
-              Ver projeto
-            </a>
-          </label>
+          {(project?.status == "Lançado" ||
+            project?.status == "Em andamento") && (
+            <label>
+              <strong>Link:</strong>{" "}
+              <a href={project?.href} target="_blank">
+                Ver projeto
+              </a>
+            </label>
+          )}
         </div>
       </div>
     </motion.article>

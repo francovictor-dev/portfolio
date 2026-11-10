@@ -30,6 +30,10 @@ const ExperienceSection = () => {
         </h2>
 
         <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          Angular
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
           Flutter Flow
         </h2>
 
@@ -46,11 +50,35 @@ const ExperienceSection = () => {
         </h2>
 
         <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          Adonisjs
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          Nestjs
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
           Supabase
         </h2>
 
         <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
           Firebase
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          AWS
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          Docker
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          C#
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          .NET
         </h2>
 
         <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
@@ -66,7 +94,27 @@ const ExperienceSection = () => {
         </h2>
 
         <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
-          Metodologia Ágil
+          SQL Server
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          NoSQL
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          MongoDB
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          N8N
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          BullMQ
+        </h2>
+
+        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
+          CI/CD
         </h2>
 
         <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
@@ -79,10 +127,6 @@ const ExperienceSection = () => {
 
         <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
           Kanban
-        </h2>
-
-        <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">
-          Versionamento (Github)
         </h2>
 
         <h2 className="text-3xl max-sm:text-[1.5rem] font-semibold text-(--text-secondary-90)">

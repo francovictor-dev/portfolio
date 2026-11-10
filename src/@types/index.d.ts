@@ -1,4 +1,4 @@
-type PROJECT_TYPE = "Lançado" | "Em andamento" | "Em pausa";
+type PROJECT_TYPE = "Lançado" | "Em andamento" | "Em pausa" | "Indisponível";
 
 interface ProjectInterface {
   slug: string;

@@ -17,7 +17,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
   const project = projectMock.find((e) => e.slug == slug) as ProjectInterface;
 
-  if (!slug) return notFound();
+  if (!project) return notFound();
 
   return <ProjectComponent project={project} />;
 }

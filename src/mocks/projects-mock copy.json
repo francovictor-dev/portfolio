@@ -15,7 +15,7 @@
   {
     "slug": "tacos-frances-mobile",
     "type": "mobile",
-    "status": "Lançado",
+    "status": "Indisponível",
     "href": "https://play.google.com/store/apps/details?id=com.jajador.tacosfrances&hl=en-US",
     "title": "Tacos Francês Mobile",
     "description": "Aplicativo inicialmente feito para Android, e foi feito para o restaurante do Tacos Francês dedicadamente aos seus clientes. O aplicativo possibilita solicitação de pedidos remotamente fornecendo, também, aos clientes, o acompanhamento de entrega desses pedidos.",
@@ -35,7 +35,11 @@
     "repository": null,
     "images": [
       "/images/tacos-frances-mobile-cover.png",
-      "/images/tacos-frances-mobile.png"
+      "/images/tacos-frances-mobile-1.png",
+      "/images/tacos-frances-mobile-2.png",
+      "/images/tacos-frances-mobile-3.png",
+      "/images/tacos-frances-mobile-4.png",
+      "/images/tacos-frances-mobile-5.png"
     ]
   },
   {
@@ -54,14 +58,13 @@
   {
     "slug": "biscoito-mobile",
     "type": "mobile",
-    "status": "Lançado",
+    "status": "Indisponível",
     "href": "https://play.google.com/store/apps/details?id=com.jajador.biscoitoapp&hl=pt-BR",
     "title": "Biscoito Mobile",
     "description": "Biscoito é uma plataforma que oferece facil comunicação entre empresas e influenciadores, fornecendo controle transparente dos trabalhos publicitários de influenciadores essenciais para market de marcas e campanhas de empresas. Essa versão mobile é voltado para ambiente do influenciador.",
     "enterprise": "Dysoft",
     "activity": "Desenvolvedor auxiliar frontend",
     "stacks": [
-      "Mobile",
       "React Native",
       "Javascript",
       "Expo",

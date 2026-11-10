@@ -10,14 +10,14 @@
     "stacks": ["Nextjs", "Tailwind", "React Query"]
   },
   {
-    "title": "Recicla Belém Web",
-    "href": "https://github.com/francovictor-dev/recicla-belem-web",
-    "stacks": ["Angular", "SASS", "API Rest"]
+    "title": "Recicla Belém",
+    "href": "https://github.com/francovictor-dev/recicla-belem",
+    "stacks": ["Angular", "SCSS", ".NET", "SQL Server"]
   },
   {
     "title": "WebTelecom",
     "href": "https://github.com/francovictor-dev/WebTelecom",
-    "stacks": ["Javascript", "Nodejs", "Juno Gateway"]
+    "stacks": ["Javascript", "Nodejs", "Expressjs", "MongoDB", "Juno Gateway"]
   },
   {
     "title": "Igapo ladrilhos Simulador",
